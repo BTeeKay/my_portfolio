@@ -7,3 +7,28 @@
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
+
+.videobox iframe {
+    height: 315px;
+    width: 560px;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .videobox {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 25px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    .videobox iframe {
+        height: 200px;
+        width: 250px;
+    }
+
+
+}
