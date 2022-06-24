@@ -1,8 +1,9 @@
 import './App.css';
+import MainContainer from './containers/MainContainer';
 
 function App() {
   return (
-<h1>Brian put info here</h1>
+    <MainContainer />
   );
 }
 
