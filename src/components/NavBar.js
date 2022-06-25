@@ -1,21 +1,22 @@
-import React from 'react'
-import './navbar.css'
+import React from 'react';
+import './navbar.css';
+import {Link} from 'react-router-dom';
 
 const NavBar = () => {
 
     return (
         <nav>
             <li>
-                <a>Project 1</a>
+                <Link to="/project1">Project 1</Link>
             </li>
             <li>
-                <a>Project 2</a>
+                <Link to="/project2">Project 2</Link>
             </li>
             <li>
-                <a>Project 3</a>
+                <Link to="/project3">Project 3</Link>
             </li>
         </nav>
     )
-}
+};
 
 export default NavBar;
