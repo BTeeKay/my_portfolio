@@ -1,11 +1,15 @@
 .videobox {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 25px;
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    background-color: rgb(243, 240, 240);
+    border: 2px solid rgb(207, 197, 197);
 }
 
 .videobox iframe {
@@ -21,13 +25,15 @@
         width: auto;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 10px;
+        padding-top: 5px;
         padding-bottom: 5px;
         margin-bottom: 5px;
     }
 
     .videobox iframe {
         height: 200px;
-        width: 250px;
+        width: 350px;
     }
 
 

@@ -21,6 +21,7 @@ nav {
   
   li a:hover:not(.active) {
     background-color: #111;
+    color: rgb(212, 246, 212);
   }
   
   .active {
