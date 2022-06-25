@@ -1,0 +1,9 @@
+.HomeBox > h2 {
+    color: #333;
+}
+
+.HomeBox > p {
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+}
