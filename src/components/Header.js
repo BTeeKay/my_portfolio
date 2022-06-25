@@ -4,10 +4,10 @@ import './header.css'
 const Header = () => {
 
     return (
-        <div className="Header">
+        <header>
             <h1>Brian Thomas Kerr</h1>
-            <h3>Portfolio</h3>
-        </div>
+            <h3>Junior Software Developer</h3>
+        </header>
     )
 }
 
